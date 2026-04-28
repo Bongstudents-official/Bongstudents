@@ -1,0 +1,102 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 10px;
+    background: #111;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 59px;
+}
+nav ul li {
+    list-style: none;
+    margin-left: 11px;
+}
+nav ul li a {
+    text-decoration: none;
+    color: #12d2bf;
+    padding: 7px 19px;
+    border-radius: 29px;
+    box-shadow: 0 0 10px
+        rgba(255,255,255,.3);
+}
+.bt:hover {
+    color: aqua;
+    background-color: rgba(255,255,255,.3);
+}
+.btn {
+    border-radius: 29px;
+    padding: 6px 13px;
+    color: #000000;
+    background-color: aqua;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+     box-shadow: 0 0 10px
+        rgba(255,255,255,.3);
+}
+.btn:hover {
+    transform: scale(1.05);
+    background-color: #e3e9e8;
+}
+.h3 {
+    text-align: center;
+    font-family: sans-serif;
+    background: #111;
+    color: white;
+}
+.marquee {
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    width: 100%;
+    overflow: hidden;
+    background: #111;
+    color: white;
+    padding: 12px 0;
+    white-space: nowrap;
+    box-shadow: 0 0 10px
+        rgba(255,255,255.3);
+}
+.marquee p {
+    display: inline-block;
+    animation: marquee 20s linear infinite;
+    padding-left: 100%;
+}
+@keyframes marquee {
+    0%{
+        transform: translateX(0);
+    }
+    100%{
+        transform: translateX(-100%);
+    }
+}
+.categories {
+    padding: 45px 12px;
+    justify-content: center;
+}
+.card {
+    padding: 28px 30px;
+    text-align: center;
+    border-radius: 15px;
+    border: ridge;
+    border-color: #000000;
+    box-shadow: 0 0 10px
+        rgba(255,255,255,.3);
+}
+.card:hover {
+    box-shadow: 0 0 33px
+        rgba(52, 238, 22, 0.3);
+    background: rgba(51, 50, 50, 0.3);
+}
+.footer {
+    text-align: center;
+    padding: 25px;
+    background: #111;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+}
